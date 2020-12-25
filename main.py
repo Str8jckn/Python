@@ -16,12 +16,16 @@ print(price)
 # if, for loops
 
 if(age < 90):
-    print("indentation for ifs")
+    print("Dont worry, yur still young!")
+    print('Inside')
+elif (age == 90):
+    print('Yur bordering old!!')
 
-
-else('murda murda murda, kill kill kill')
+else:
+    print('murda murda murda kill kill kill')
 
 # functions
+seperator():
 
 
 def funcname():
