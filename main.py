@@ -25,7 +25,7 @@ else:
     print('murda murda murda kill kill kill')
 
 # functions
-seperator():
+# seperator():
 
 
 def funcname():

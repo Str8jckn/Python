@@ -1,3 +1,6 @@
+import os
+
+
 def print_menu():
     print("*" * 30)
     print("Well Well Well")
@@ -7,6 +10,10 @@ def print_menu():
     print("[2] View Catalog")
     print("[3] Display out of stock")
     print("[4] Total stock value")
+    print("[5] Cheapest product")
+    print("[6] Delete Product")
+    print("[7] Update product Price")
+    print("[8] Update Product stock")
 
     print('')
     print('[a] Calculate age')
@@ -23,8 +30,7 @@ def print_header(header_text):
 
 
 def clear():
-
-    print("\n\n\n\n\n")
+    return os.system("clear")
 
 
 def print_line():
